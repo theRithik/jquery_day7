@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" >
+    
+   
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+   <style>
+   
+   .ui-page-theme-a{
+        background-color: #e9e9e9;
+    }
+    .heading{
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+
+}
+.list{
+    background-color: white;
+}
+
+h3{
+    color: brown;
+    text-align: center;
+    font-style: italic;
+}
+img{
+    height:200px;
+}
+.choice_list{
+    padding: 20px;
+    margin: 15px;
+    
+}
+.list{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border: 1px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+li{
+    border-color: aliceblue;
+}
+.ui-btn-icon-right:after {
+    background-color: brown;
+}
+a.ui-btn.ui-btn-icon-right.ui-icon-carat-r {
+    border-width: thin;
+    color: black;
+}
+
+li :hover {
+    background-color: rgba(74, 5, 5, 0.929);
+    color:white;
+}
+   </style>
+</head>
+<body>
+    <div data-role="page" class="home" data-theme="c">
+        <div data-role="content" >
+          <div class="heading">
+                <h1>Restaurant Picker</h1><hr>
+            
+            </div>
+            <div class="choice_list">
+                <h3>What would you like to eat </h3>
+                <ul data-role="listview" class="list ui-corner-all">
+                    <li><a href="town.html" data-transition="sildedown" style="text-decoration:none"><img src="chicken.jpg">Chicken </a></li>
+                     <li><a href="town.html" dtata-transition="slidedown"><img src="/fish.jpg"> Fish </a> </li>
+                     <li><a href="town.html" data-transition="slidedown"><img src="/noodles.jpg">Noodle </a> </li>
+                     <li><a href="town.html" data-transition="sildedown"><img src="/pizza.jpg">Pizza </a> </li>
+                     <li><a href="town.html" data-transition="sildedown"><img src="praws.jpg">Prawns </a> </li>
+                     <li><a href="town.html" data-transition="slidedown"><img src="/salaad.jpg">Salaad </a> </li>
+                
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

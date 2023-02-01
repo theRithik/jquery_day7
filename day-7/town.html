@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" >
+    
+   
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+   <style>
+     .ui-page-theme-a{
+        background-color: #e9e9e9;
+    }
+    .ui-page-theme-a .ui-bar-inherit {
+        background-color:  rgba(34, 2, 2, 0.979); 
+        color: white;
+        font-size: 18px;
+    }
+    a.ui-link.ui-btn-left.ui-btn.ui-icon-back.ui-btn-icon-left.ui-shadow.ui-corner-all {
+    background-color:  rgba(74, 5, 5, 0.929);
+    color: white;
+    border-color:  rgba(74, 5, 5, 0.929);
+    margin-top: 0.5em;
+    
+}
+.ui-btn{
+    padding-top: 0.3em;
+    padding-bottom: 0.5em;
+    
+}
+
+h3{
+    color: brown;
+    text-align: center;
+    font-style: italic;
+    padding-top:40px;
+}
+span.ui-li-count.ui-body-inherit{
+    border-radius:20px;
+    background-color:#f9f9f9;
+}
+.ui-btn-icon-right:after {
+    background-color:  rgba(74, 5, 5, 0.929);;
+}
+.list{
+    padding: 30px;
+}
+a.ui-btn.ui-btn-icon-right.ui-icon-carat-r{
+    border-width:1px;
+}
+
+   </style>
+</head>
+<body>
+    <div data-role="page" data-theme="a">
+        <div data-role="header" data-display="fullscreen" class="ui-header">
+            <h2>Restaurant Picker</h2>
+            <a href="project.html" data-rel="close" data-icon="back" >Back</a>
+        </div>
+        <div data-role="main" class="list">
+            <h3>In which city do you want to eat</h3>
+            <ul data-role="listview" data-filter="true" data-filter-placeholder="Enter Location..." data-insert="true">
+                <li><a href="/choose.html" data-transition="slidedown">Delhi<span class="ui-li-count">3</span></a> </li>
+                <li><a href="/choose.html" data transition="slidedown"> Vijayawada <span class="ui-li-count">1</span></a>  </li>
+                <li><a href="/choose.html" data-transition="slidedown">Mumbai <span class="ui-li-count">2</span></a> </li>
+                <li><a href="/choose.html" data-transition="slidedown">Bangalore <span class="ui-li-count">10</span></a> </li>
+                <li><a href="/choose.html" data-transition="slidedown">Chennai <span class="ui-li-count">2</span></a> </li>
+                <li><a href="/choose.html" data-transition="slidedown">New york <span class="ui-li-count">5</span></a> </li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>

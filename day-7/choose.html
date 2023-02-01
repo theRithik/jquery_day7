@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" >
+    
+   
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  
+    <style>
+         .ui-page-theme-a{
+        background-color: #e9e9e9;
+    }
+          .ui-page-theme-a .ui-bar-inherit {
+        background-color:  rgba(34, 2, 2, 0.979); 
+        color: white;
+        font-size: 18px;
+    }
+    a.ui-link.ui-btn-left.ui-btn.ui-icon-back.ui-btn-icon-left.ui-shadow.ui-corner-all {
+    background-color:  rgba(74, 5, 5, 0.929);
+    color: white;
+    border-color:  rgba(74, 5, 5, 0.929);
+    margin-top: 0.5em;
+    
+}
+.ui-btn{
+    padding-top: 0.3em;
+    padding-bottom: 0.5em;
+    
+}
+
+h3{
+    color: brown;
+    text-align: center;
+    font-style: italic;
+    padding-top:40px;
+}
+img{
+    height:200px;
+}
+
+.list{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border: 1px;
+    text-decoration: none;
+}
+.list{
+    padding: 30px;
+}
+a.ui-btn.ui-btn-icon-right.ui-icon-carat-r{
+    border-width:1px;
+}
+.ui-btn-icon-right:after {
+    background-color:  rgba(74, 5, 5, 0.929);;
+}
+option{
+border:1px solid;
+border-color:#ddd;
+}
+    </style>
+</head>
+<body>
+    <div data-role="page" data-theme="a">
+        <div data-role="header">
+            <h1>Restaurant Picker</h1>
+            <a href="/town.html" data-icon="back" data-rel="close">Back</a>
+        </div>
+        <div data-role="main" data-theme="a" class="list" >
+            <h3>Please choose a Restaurant</h3>
+<ul data-role="listview">
+    <li><a href="/location.html" data-transition="sildedown" ><img src="hotel1.jpg">Itc <br>⭐⭐⭐⭐</a></li>
+    <li><a href="/location.html" data-transition="sildedown" ><img src="/hotel2.webp">Maroti <br>⭐⭐⭐ </a></li>
+    <li><a href="" data-transition="sildedown" ><img src="hotel3.jpg">MG Road  <br>⭐⭐⭐⭐ </a></li>
+    <li><a href="" data-transition="sildedown" ><img src="/hotel4.jpg">Becent Road  <br>⭐⭐ </a></li>
+    <li><a href="" data-transition="sildedown" ><img src="/hotel5.jpg">Subash Nagar <br>⭐⭐⭐⭐ </a></li>
+    <li><a href="" data-transition="sildedown" ><img src="hotel6.jpg">Luna center <br>⭐⭐⭐ </a></li>
+</ul>
+        </div>
+    </div>
+</body>
+</html>ml
